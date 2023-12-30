@@ -1,0 +1,16 @@
+region: eu-west-1 #feel free to change it
+
+githubInfo:
+  owner: Owner from GitHub
+  repoName: Only the repo name, not the whole URL
+  branch: main or whatever branch you want to use
+
+connectionARN: "arn:aws:codestar-connections:<<region>>:<<accountId>>:connection/<<id>>"
+
+route53:
+  hostedZoneName: Your domain name like "cloudandtech-consulting.com"
+  domainName: You FQDN for the WebSite like "www.cloudandtech-consulting.com"
+
+acm:
+  domainName: Your SSL/TLS certificate domain like "*.cloudandtech-consulting.com"
+  certificateARN: "arn:aws:acm:us-east-1:<<accountId>>:certificate/<<id>>"
